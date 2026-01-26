@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Minecraftia;
+    src: url(/Minecraftia-Regular.ttf);
+}
+
+body {
+    background-image: url(/pictures/content_background.png);
+}
+.title {
+    color: white;
+    font-family: Minecraftia;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 1.4rem;
+}
+.container {
+    background-color: black;
+    color: whitesmoke;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    height: 70vh;
+    border: 5px #6e6e6e solid;
+    border-radius: 7px;
+}
+.button {
+    text-align: center;
+    display: block;
+    font-family: Minecraftia;
+    background-color: #6e6e6e;
+    margin-top: 2vw;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    padding: 1vh 1vw;
+    text-decoration: none;
+    color: white;
+    border: 3px black solid;
+}
