@@ -3,6 +3,22 @@
     src: url(/Minecraftia-Regular.ttf);
 }
 
+:root {
+    /* font-sizes */
+    --fs-caption: 0.75rem;
+    --fs-metadata: 0.875rem;
+    --fs-standard: 1rem;
+    --fs-leadtext: 1.125rem;
+    --fs-small-heading: 1.25rem;
+    --fs-subheading: 1.5rem;
+    --fs-main-heading: 2rem;
+    --fs-title-text: 3rem;
+}
+
+html {
+    font-size: 100%;
+}
+
 body {
     background-image: url(/pictures/content_background.png);
 }
@@ -11,7 +27,7 @@ body {
     font-family: Minecraftia;
     text-align: center;
     margin-top: 5vh;
-    font-size: 1.4rem;
+    font-size: var(--fs-subheading);
 }
 .container {
     background-color: black;
@@ -21,6 +37,7 @@ body {
     height: 70vh;
     border: 5px #6e6e6e solid;
     border-radius: 7px;
+    display: flex;
 }
 .button {
     text-align: center;
@@ -34,4 +51,41 @@ body {
     text-decoration: none;
     color: white;
     border: 3px black solid;
+}
+.year, .school, .award, .pup_lister {
+    text-align: center;
+    font-family: Minecraftia;
+}
+.pup, .sti, .khs, .kses {
+    margin-bottom: 3vh;
+}
+.pup, .mecha, .internships .year {
+    margin-top: 2vh;
+}
+.year, .award {
+    color: violet;
+}
+.pup_lister, .school {
+    color: goldenrod;
+}
+.education, .cert_intern {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.certifications, .css {
+    margin-top: 2vh;
+}
+.internships {
+    margin-top: 10vh;
+}
+.subtitle {
+    font-family: Minecraftia;
+    font-size: var(--fs-standard);
+    margin: 0;
+    margin-top: 2vh;
+    text-align: center;
+}
+.education {
+    font-size: var(--fs-metadata);
 }

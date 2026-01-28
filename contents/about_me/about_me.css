@@ -2,13 +2,15 @@
     font-family: Minecraftia;
     src: url(/Minecraftia-Regular.ttf);
 }
+html {
+    font-size: 100%;
+}
 
 body {
     background-image: url(/pictures/content_background.png);
 }
 .title {
     color: white;
-    font-family: Minecraftia;
     text-align: center;
     margin-top: 5vh;
     font-size: 1.4rem;
@@ -25,7 +27,6 @@ body {
 .button {
     text-align: center;
     display: block;
-    font-family: Minecraftia;
     background-color: #6e6e6e;
     margin-top: 2vw;
     margin-left: 35vw;
@@ -34,4 +35,20 @@ body {
     text-decoration: none;
     color: white;
     border: 3px black solid;
+}
+.title, .button, .text1, .text2, .text3, .text4, .text5 {
+    font-family: Minecraftia;
+}
+.text1, .text2, .text3, .text4, .text5 {
+    margin-top: 4vh;
+    margin-left: 2vw;
+    margin-right: 1vw;
+    text-indent: 5rem;
+    text-align: justify;
+}
+.text1, .text3, .text5 {
+    color: violet;
+}
+.text2, .text4 {
+    color: goldenrod;
 }
